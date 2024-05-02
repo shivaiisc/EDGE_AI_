@@ -45,6 +45,9 @@ edge_ai_project/
 │
 └── requirements.txt        # Python dependencies
 
+
+
+
 ```
 ## Installation
 1. Clone this repository to your local machine.
@@ -55,13 +58,21 @@ git clone https://github.com/shivaiisc/edge_ai_project.git
 ``` 
 cd edge_ai_project
 ``` 
+One can simply produce results by following 2 lines of commands: 
+
+```
+chmod +x run.sh 
+./run.sh
+```
+
+
 3. Create conda envirenment 
 ```
 conda create --name edge_ai python=3.11
 ```
 4. Activate the environment
 ```
-conda activate edge_ai_project
+conda activate edge_ai
 ```
 4. Install dependencies 
 ```
